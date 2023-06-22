@@ -7,7 +7,7 @@ body{
 
 .banner{
     height: 50vh;
-    background: url('../img/fundo.jpg');
+    background: url('../img/2op.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,4 +36,9 @@ body{
 /* `xxl` estilo para telas com resolução (large desktops, less than 1400px)*/
 @media (max-width: 1399.98px) {
 
+ }
+ .perfil{
+    border-radius: 70%; /* borda da foto*/
+height: 50vh;
+margin-left: 10%;
  }
