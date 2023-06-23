@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 body{
     font-family: 'Eb Garamond', sans-serif;
     font-weight: 200;
@@ -6,7 +7,7 @@ body{
 }
 
 .banner{
-    height: 50vh;
+    height: 43vh;
     background: url('../img/2op.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -39,6 +40,62 @@ body{
  }
  .perfil{
     border-radius: 70%; /* borda da foto*/
-height: 50vh;
+height: 40vh;
 margin-left: 10%;
+ }
+ .nome{
+    margin-top: 17%;
+    font-size: 4rem;
+    margin-left: -10%;
+ }
+.progress{
+  margin-left: 2%;
+}
+.progress2{
+    margin-left: 2%;
+}.progress3{
+    margin-top: 15%;
+}
+.progress4{
+    margin-top: 15%;
+}
+.info{
+    color:black;
+   font-size: 4rem;
+   margin-left: 5%;
+   font-family:Titillium Web ;
+ }
+ .design{
+    color:black;
+   font-size: 2rem;
+   margin-left: 5%;
+   font-family:Titillium Web ;
+ }
+ .progra{
+    color:black;
+   font-size: 2rem;
+   margin-top:-2%;
+   margin-left: 5%;
+   font-family:Titillium Web ;
+ }
+ .mate{
+    color:black;
+   font-size: 2rem;
+   margin-top:-2%;
+   margin-left: 5%;
+   font-family:Titillium Web ;
+ }
+ .cozi{
+    color:black;
+   font-size: 2rem;
+   margin-top:-2%;
+   margin-left: 5%;
+   font-family:Titillium Web ;
+ }
+ .hist{
+    color:black;
+   font-size: 4rem;
+   margin-top:-35%;
+   margin-left: 70%;
+   font-family:Titillium Web ;
  }
