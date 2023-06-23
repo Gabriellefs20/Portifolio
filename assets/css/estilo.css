@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
-body{
-    font-family: 'Eb Garamond', sans-serif;
+  
+  body{
+    font-family: 'Eb Garamond', sans-serif, 'Titillium Web';
     font-weight: 200;
     font-size: 1rem;
 }
@@ -38,14 +39,19 @@ body{
 @media (max-width: 1399.98px) {
 
  }
+
+ @media (min-width: 400px) and (max-width: 1399.98px) {
  .perfil{
     border-radius: 70%; /* borda da foto*/
 height: 40vh;
 margin-left: 10%;
  }
+}
+
+@media (min-width: 577px) and (max-width: 1399.98px) {
  .nome{
     margin-top: 17%;
-    font-size: 4rem;
+    font-size: 4vmax;
     margin-left: -10%;
  }
 .progress{
@@ -94,8 +100,47 @@ margin-left: 10%;
  }
  .hist{
     color:black;
-   font-size: 4rem;
-   margin-top:-35%;
-   margin-left: 70%;
-   font-family:Titillium Web ;
+   font-size: 3.5rem;
+   margin-top:-44%;
+   margin-left: 65%;
+   font-family:Titillium Web;
  }
+ .card{
+  width: 20rem;
+  margin-left: 65%;
+ }
+.card-title{
+  font-size: 25px;
+}
+.card-text{
+  font-family: Titillium Web;
+  font-size: 20px;
+}
+.cont{
+  color:black;
+   font-size: 3.5rem;
+   font-family:Titillium Web;
+   margin-left: 65%;
+}
+.list-group-item{
+  font-family: Titillium Web;
+  font-size: 20px;
+}
+.btn{
+  background:bisque;
+  height: 40px;
+  width:100px;
+}
+.card-header{
+  background: url('../img/2op.jpg');
+  height: 40px;
+}
+}
+.progress-bar{
+  background-color: rgb(93, 24, 156);
+}
+.progress-barr{
+  background-color: rgba(226, 157, 215, 0.87);
+  color: white;
+  text-align: center;
+}
